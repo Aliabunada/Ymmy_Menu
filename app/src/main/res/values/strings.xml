@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Yummy Resturant</string>
+    <string name="title_home">Yummy Menu</string>
+    <string name="title_dashboard">Yummy Manager</string>
+
+    <string name="title_favourite"> My Favourite</string>
+    <string name="title_category"> Category</string>
+</resources>

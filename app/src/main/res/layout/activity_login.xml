@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F6D162"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:orientation="vertical"
+        tools:context=".Login"
+    >
+
+    <ImageView
+        android:id="@+id/login_img_logo"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_ico_store" />
+
+    <EditText
+        android:id="@+id/login_et_emails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="18dp"
+          android:ems="10"
+        android:gravity="center"
+        android:hint="Enter UserName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/login_et_passwords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="54dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword" />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rememper Me"
+        android:layout_gravity="center"
+
+        />
+
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="54dp"
+        android:layout_marginLeft="54.0dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginTop="50dp"
+        android:background="#F36057"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</LinearLayout>
