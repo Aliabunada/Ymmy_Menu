@@ -1,7 +1,7 @@
 # Project Title 
   Yummy_Menu
 # Description 
-  Yummy its Android app to show the Menu for returant and it provide the manager to add or deleting any item to menu
+  Yummy it's Android app to show the Menu for restaurant and it provides the manager to add or delete any item to the menu
   ## Technologies
   - Java
   - OOP
@@ -9,5 +9,4 @@
   - splash screen
   - shared preferences
   # Development
-   In first of June is the date that i written the first line of code, last code is in 5th of June
-  
+   In the first of June is the date that I wrote the first line of code, the last code is on the 5th of June
